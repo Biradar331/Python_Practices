@@ -9,3 +9,12 @@ Movies.append(movie2)
 Movies.append(movie3)
 
 print(Movies)
+
+#or we can write the above code as below
+
+Movies=[]
+Movies.append(input("enthe the name of the 1st movie:"))
+Movies.append(input("enthe the name of the 2nd movie:"))
+Movies.append(input("enthe the name of the 3rd movie:"))
+
+print(Movies)

@@ -20,3 +20,5 @@ if name1 ==name :
     print("palindrome")
 else:
     print("not a palindrome")
+
+#This problem prints the given list is not a palindrome
