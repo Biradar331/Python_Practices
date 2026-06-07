@@ -10,3 +10,4 @@ for i in range(lower,upper+1):
                 break
         else:
             print(f"{i} is a prime number")
+            

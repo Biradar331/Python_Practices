@@ -1,8 +1,9 @@
 {
     "python-envs.defaultPackageManager": "ms-python.python:conda",
     "python-envs.pythonProjects": [],
-    "github.copilot.nextEditSuggestions.enabled": false,
-    "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
-    "github.copilot.nextEditSuggestions.extendedRange": false,
-    "github.copilot.nextEditSuggestions.fixes": false
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": true,
+    "github.copilot.nextEditSuggestions.extendedRange": true,
+    "github.copilot.nextEditSuggestions.fixes": true,
+    "github.copilot.chat.notebook.enhancedNextEditSuggestions.enabled": true
 }
