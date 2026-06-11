@@ -54,12 +54,12 @@ print("The sum of first 10 numbers is:", output)
 
 def sum_of_squares(n):
     """
-    Returns the sum of squares of first N natural numbers.
+    Returns the sum of squares of first N natural numbers using recursion.
     """
-    if n==0:
-        return 0
-    elif n<0:
+    if n<0:
         raise ValueError ("Can't calculate for negative numbers")
+    elif n==0:
+        return 0
     return n**2+sum_of_squares((n-1))
 result=sum_of_squares(3)
 print(f"The sum of squares of first N natural numbers is {result}")

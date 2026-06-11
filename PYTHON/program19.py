@@ -8,5 +8,5 @@ def product_digits(n):
     if n<10:
         return n
     return (n%10)*product_digits(n//10)
-result=product_digits(5)
+result=product_digits(1234)
 print("the product of given digits are:", result)

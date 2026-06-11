@@ -38,3 +38,4 @@ def factorial(number):
         print(f"The factorial of {number} is {factorial}")
 factorial(5)
 
+
