@@ -15,3 +15,23 @@ if sum==num:
 else:
     print("The number is not an armstrong number")
 
+
+
+
+# Python program to check if the number is armstrong number or not for 'n' digits
+
+num=int(input("Enter a number here:"))
+sum=0
+temp=num
+
+while temp>0:
+    digit=temp%10
+    cube= digit **len(str(num))
+    sum=sum+cube
+    temp=temp//10
+
+if sum==num:
+    print("The number is an armstrong number")
+else:
+    print("The number is not an armstrong number")
+
