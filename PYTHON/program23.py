@@ -18,3 +18,5 @@ while num>0:
     count+=1
     num=num//10
 print("The count of digits present in a given number",n, "are",count)
+
+## the 'Time Complexity' of the above problem is ---> O(log10(N))
