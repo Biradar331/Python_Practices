@@ -7,3 +7,14 @@ while num>0:
     print(digit)
     num=num//10
     
+
+# python program to count the number of digits from an integer
+
+n=int(input("Enter a number:"))
+num=n
+count=0
+while num>0:
+    digit=num%10
+    count+=1
+    num=num//10
+print(count)
