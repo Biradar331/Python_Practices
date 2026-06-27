@@ -17,4 +17,4 @@ while num>0:
     digit=num%10
     count+=1
     num=num//10
-print(count)
+print("The count of digits present in a given number",n, "are",count)
