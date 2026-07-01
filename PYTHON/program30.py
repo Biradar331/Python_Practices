@@ -8,3 +8,10 @@ for i in range(1, len(num)):
     else:
         freq_map[num[i]]=1
 print(freq_map)
+
+# print (freq_map[3])
+
+## Time Complexity of the above problem is --> O(n)
+
+## Space Complexity of the above problem is --> O(n)
+
