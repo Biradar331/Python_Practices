@@ -29,3 +29,12 @@ def HCF(x,y):
             hcf=i
     return hcf
 print("The HCF/GCD of 12 and 30 is", HCF(12,30))
+
+
+# python program to find HCF/GCD of two numbers using Euclidean algorithm
+def HCF(x, y):
+    while y:
+        x, y = y, x % y
+    return x
+
+print("The HCF/GCD of 12 and 30 is", HCF(12, 30))
