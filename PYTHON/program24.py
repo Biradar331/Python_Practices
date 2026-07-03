@@ -13,3 +13,6 @@ if result==n:
     print("The given number",n, "is a palindrome")
 else:
     print("the given number", n, "is not a palindrome")
+
+
+## the 'Time Complexity' of the above problem is ---> O(log10(N))

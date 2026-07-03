@@ -27,9 +27,11 @@ for num in range(lower, upper+1):
     result=0
     temp=num
     order=len(str(num))
+
     while temp>0:
         digit= temp%10
         result= result+digit**order
         temp=temp//10
+        
     if num==result:
         print(num)
