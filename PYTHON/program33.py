@@ -19,19 +19,21 @@ print("The HCF/GCD of", num1, "and", num2, "is", hcf)
 
 
 # python program to find HCF/GCD of two numbers using def function
-def HCF(x,y):
-    if x>y:
-        smaller=y
+def HCF_loop(x, y):
+    if x > y:
+        smaller = y
     else:
-        smaller=x
-    for i in range(1, smaller+1):
-        if (x%i==0) and (y%i==0):
-            hcf=i
+        smaller = x
+    hcf = 1
+    for i in range(1, smaller + 1):
+        if (x % i == 0) and (y % i == 0):
+            hcf = i
     return hcf
-print("The HCF/GCD of 12 and 30 is", HCF(12,30))
+print("The HCF/GCD of 12 and 30 is", HCF_loop(12, 30))
 
 
 # python program to find HCF/GCD of two numbers using Euclidean algorithm
+
 def HCF(x, y):
     while y:
         x, y = y, x % y
