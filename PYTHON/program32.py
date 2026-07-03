@@ -7,3 +7,8 @@ print("The conversions of decimal number", decimal, "are:")
 print("Binary:", bin(decimal))
 print("octal:", oct(decimal))
 print("Hexadecimal:", hex(decimal))
+
+
+# program to find Ascii value of a character
+char=input("Enter a character:")
+print("The Ascii value of", char, "is:", ord(char))
