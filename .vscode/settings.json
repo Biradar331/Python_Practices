@@ -5,5 +5,12 @@
     "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": true,
     "github.copilot.nextEditSuggestions.extendedRange": true,
     "github.copilot.nextEditSuggestions.fixes": true,
-    "github.copilot.chat.notebook.enhancedNextEditSuggestions.enabled": true
+    "github.copilot.chat.notebook.enhancedNextEditSuggestions.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.inlineSuggest.edits.allowCodeShifting": "always",
+    "editor.inlineSuggest.edits.renderSideBySide": "never",
+    "editor.inlineSuggest.enabled": true
 }
