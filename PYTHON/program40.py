@@ -105,4 +105,30 @@ def sum_digits(n):
         total=total+(n%10)
         n=n//10
     return total
-sum_digits(123)
+answer=sum_digits(123)
+print(answer)
+
+# python program to reverse a number
+
+def reverse_num(n):
+    if n<10:
+        return "Enter a valid number of digits 2 or more"
+    else:
+        reverse=0
+        while n>0:
+            remainder=n%10
+            reverse=reverse*10+remainder
+            n=n//10
+        return reverse
+result=reverse_num(234)
+print(result)
+        
+# python program to reverse a number using loop
+n=int(input("Enter a number:"))
+num=n
+reverse=0
+while num>0:
+    reverse=reverse*10+(num%10)
+    num=num//10
+print(reverse)
+    

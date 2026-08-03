@@ -1,8 +1,10 @@
-def sum_digits(n):
-    total=0
-    while n>0:
-        total=total+n%10
-        n=n//10
-    return total
-answer=sum_digits(123)
-print(answer)
+# python program to reverse a number using loop
+
+n=int(input("Enter a number:"))
+num=n
+reverse=0
+while num>0:
+    reverse=reverse*10+(num%10)
+    num=num//10
+print(reverse)
+    
