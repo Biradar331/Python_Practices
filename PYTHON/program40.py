@@ -75,3 +75,34 @@ def print_prime_numbers(start, end):
 start=int(input("Enter the starting number:"))
 end=int(input("Enter the ending number:"))
 print_prime_numbers(start, end)
+
+
+##2
+
+def get_primes_in_range(start, end):
+    primes=[]
+    for num in range(start, end+1):
+        if is_prime(num):
+            primes.append(num)
+    return primes
+
+# python progrsm to extarct digits from a number and calculate sum of digits
+
+num=int(input("Enter a number to extract digits and calculate sum of those digits:"))
+n=num
+sum=0
+while (n>0):
+    remainder=n%10
+    sum=sum+remainder
+    n=n//10
+print(sum)
+
+# pthon program to extarct digits and calculate their sum using function
+
+def sum_digits(n):
+    total=0
+    while n>0:
+        total=total+(n%10)
+        n=n//10
+    return total
+sum_digits(123)
