@@ -34,7 +34,7 @@ print(is_leap(year))
 
 # Python program to check the given number is a prime number or not
 
-def is_prime(n):
+def is_it_prime(n):
     if n<=1:
         return False
     for i in range(2,int(n**0.5)+1):
@@ -42,7 +42,7 @@ def is_prime(n):
             return False
     return True
 number=int(input("Enter a number to check is it a prime number or not: "))
-print(is_prime(number))
+print(is_it_prime(number))
 
 # optimized prime number check in python
 
@@ -58,3 +58,20 @@ def is_prime (n):
         return True
 number=int(input("Enter a number to check is it a prime number or not:"))
 print(is_prime(number))
+
+# python program to print all prime numbers in a given range
+
+def print_prime_numbers(start, end):
+    for num in range(start, end+1):
+        if num<=1:
+            print("Enter a number greater than 1")
+        elif num>1:
+            for i in range(2, int(num**0.5)+1):
+                if num%i==0:
+                    break
+                else:
+                    print(f"the prime numbers between {start} and {end} are : {num}")
+
+start=int(input("Enter the starting number:"))
+end=int(input("Enter the ending number:"))
+print_prime_numbers(start, end)
